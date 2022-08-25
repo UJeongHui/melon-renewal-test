@@ -1,0 +1,760 @@
+*{ margin: 0;  padding: 0;}
+ul,ol{list-style: none;}
+a{color: inherit; text-decoration: none;}
+
+
+
+header .wrap{
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+header .wrap .logo{
+    position: absolute;
+    bottom: 20px;
+}
+
+header .wrap .util{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+header .wrap .util li{
+    font-size: 12px;
+    margin-left: 15px;
+} 
+
+header .wrap .gnb{
+    display: flex;
+    position: absolute;
+    left: 160px;
+    bottom: 20px;
+}
+
+header .wrap .gnb li{
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+header .wrap .gnb li:last-child{
+    margin-left: 320px;
+}
+
+header .wrap .gnb li:hover{
+    color: #00d344;
+}
+
+header .wrap .line{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 1060px;
+}
+
+/*------------------------------------------*/
+
+.banner .wrap{
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
+}
+
+/*  백그라운드 이미지 넣기*/
+.banner .wrap .artistbox{
+    width: 900px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: burlywood;
+    position: relative;
+    background-image: url(../image_220729/seventeen_banner1.png);
+    border: 5px solid #00d344;
+}
+
+.banner .wrap .artistbox img{
+    width: 240px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.banner .wrap .artistbox .seventeenalbum{
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner .wrap .artistbox .title{
+    position: absolute;
+    top: 78px;
+    left: 400px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner .wrap .artistbox .tracklist1{
+    position: absolute;
+    top: 130px;
+    right: 300px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.banner .wrap .artistbox .tracklist2{
+    position: absolute;
+    right: 160px;
+    top:130px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.banner .wrap .searchbox{
+    width: 430px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.banner .wrap .searchbox input{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 65px;
+    margin-top: 10px;
+    border: 3px solid #00d344;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(../image_220729/1x/search_green_small.png);
+    background-repeat: no-repeat;
+    background-size: auto 24px;
+    background-position: right 10px center;
+}
+
+/*------------------------*/
+
+.new .wrap{
+    width: 900px;
+    margin: 0 auto 150px;
+}
+
+.new .wrap .newtitle{
+    height: 38px;
+    width: 900px;
+    border-bottom: 2px solid #00d344;
+    display: flex;
+}
+
+
+.new .wrap .newtitle h4{
+    font-size: 25px;
+
+}
+
+.new .wrap .newtitle h4:hover{
+    color: #00d344;
+}
+
+.new .wrap .newtitle img{
+}
+
+.new .wrap .newbox{
+    width: 900px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new .wrap .newbox .newboxx{
+    width: 165px;
+    margin-top: 15px;
+}
+
+.new .wrap .newbox .newboxx img{
+    width:165px;
+    border-radius: 10px;
+}
+
+.new .wrap .newbox .newboxx p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.new .wrap .newbox .newboxx p:hover{
+    color: #00d344;
+}
+
+.new .wrap .newbox .newboxx .title{
+    font-size: 18px;
+}
+
+.new .wrap .newbox .newboxx .singer{}
+
+/*--------------------------------------------------------------*/
+
+.hotchart{
+    margin: 0 auto 200px;
+    height: 340px;
+    width: 900px;
+}
+
+.hotchart h4{
+    font-size: 35px;
+    color: #00d344;
+    font-weight: bold;
+}
+
+.hotchart h4 span{
+    font-size: 30px;
+}
+
+.hotchart .wrap{
+    width: 900px;
+    height: 300px;
+    border: 5px solid#00d344;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(../1x/chart_back_220730.png);
+}
+
+.hotchart .wrap .box1{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    margin: 0;
+}
+
+.hotchart .wrap .box1 img{
+    width: 210px;
+    margin: 45px 0 0 40px;
+    border-radius: 20px;
+}
+
+.hotchart .wrap .box1 .exbox{
+ width: 148px;
+ margin: 70px 0 0 25px;
+}
+
+.hotchart .wrap .box1 .exbox .title{
+    font-size: 30px;
+}
+
+.hotchart .wrap .box1 .exbox .singer{
+    font-size: 20px;
+    text-align: right;
+}
+
+.hotchart .wrap .box1 .exbox .magazine{
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.hotchart .wrap .box2{
+    width: 350px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.hotchart .wrap .box2 .list{
+    height: 70px;
+    display: flex;
+    position: relative;
+    
+}
+
+.hotchart .wrap .box2 .list p{
+    position: absolute;
+    left: 100px;
+    margin-top: 30px;
+}
+
+.hotchart .wrap .box2 .list .singer{
+    margin-top: 50px;
+
+}
+
+.hotchart .wrap .box2 img{
+    width: 55px;
+    border-radius: 5px;
+}
+
+.hotchart .wrap .box2 img:first-child{
+    margin-top: 20px;
+}
+
+.hotchart .wrap p:hover{
+    color: #00d344;
+}
+
+/*---------------------------------------------------*/
+
+.mainmagazine h4{
+    font-size: 35px;
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 2px solid #00d344;
+    color: #00d344;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mainmagazine .title span{
+    font-size: 25px;
+}
+
+.mainmagazine .wrap{
+    width: 900px;
+    height: 540px;
+    margin: 0 auto 200px;
+    display: flex;
+}
+
+.mainmagazine .wrap .box{
+    width: 250px;
+}
+
+.mainmagazine .wrap .box .con{
+    width: 250px;
+    height: 270px;
+    position: relative;
+}
+
+.mainmagazine .wrap .box .con img{
+    width: 250px;
+    height: 270.5px;
+}
+
+.mainmagazine .wrap .box:nth-child(2){
+    width: 400px;
+}
+
+.mainmagazine .wrap .box:nth-child(2) .con{
+    width: 400px;
+    height: 540px;
+}
+
+.mainmagazine .wrap .box:nth-child(2) .con img{
+    width: 400px;
+    height: 540px;
+}
+
+.mainmagazine .wrap .box .con .over{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.mainmagazine .wrap .box .con:hover .over{
+    opacity: 1;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.playlist .wrap{
+    width: 900px;
+    margin: 0 auto 200px;
+}
+
+.playlist .wrap h4{
+    height: 46px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00d344;
+    /* background-image: url(../image_220729/1x/greenline_p2.h45.w900.png); */
+    /* background-repeat:no-repeat; */
+    border-bottom: 2px solid #00d344;
+    margin-bottom: 10px;
+}
+
+.playlist .wrap h4 span{
+    font-size: 25px;
+}
+
+.playlist .wrap .box{
+    height: 230px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist .wrap .box .boxx{
+    width: 190px;
+    height: 220px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.playlist .wrap .box .boxx img{
+    width: 160px;
+    height: 160px;
+    margin-left: 22.5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.playlist .wrap .box .boxx p{
+    position: absolute;
+    top: 170px;
+    width: 150px;
+    margin-left: 22.5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.playlist .wrap .box .boxx p:last-child{
+    width: 170px;
+    margin-left: 10px;
+}
+
+.playlist .wrap .box p:hover{
+    color: #00d344;
+}
+
+.playlist .wrap .box .boxx .over{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.playlist .wrap .box .boxx:hover .over{
+    opacity: 1;
+}
+
+/*-------------------------------------------*/
+
+/* .star .back{
+    height: 480px;
+    margin-bottom: 200px;
+} */
+
+.star .back{
+    height: 620px;
+    margin-bottom: 200px;
+    background-color: #00d344;
+}
+
+.star .back .wrap{
+    width: 900px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* .star .back .wrap .con{
+    width: 900px;
+    height: 400px;
+    border: 5px solid #00d344;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+} */
+
+.star .back .wrap h4{
+    width: 900px;
+    height: 40px;
+    padding-top: 40px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+    border-bottom: 3px solid #fff;
+}
+
+.star .back .wrap .con{
+    width: 900px;
+    height: 440px;
+    border-radius: 20px;
+    position: absolute;
+    top: 105px;
+    background-color: #fff;
+    
+}
+
+.star .back .wrap .con .btn .btnbox{
+    position: absolute;
+    top: 190px;
+}
+
+.star .back .wrap .con .btn .btnbox:last-child{
+    position: absolute;
+    right: 0;
+}
+
+.star .back .wrap .con .video .videobox{
+    width: 248px;
+    height: 208px;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.star .back .wrap .con .video .videobox:last-child{
+    position: absolute;
+    right: 70px;
+    bottom: 8px;
+
+}
+.star .back .wrap .con .video .videobox img{
+    width: 250px;
+    height: 210px;
+    border:3px solid #00d344;
+    border-radius: 10px;
+}
+
+.star .back .wrap .con .talk{
+    width: 200px;
+    display: flex;
+}
+
+.star .back .wrap .con .talk .talkbox1{
+    width: 495px;
+    height: 62px;
+    position: absolute;
+    bottom:72px;
+    margin: 10px 0 30px 70px;
+    border:3px solid #00d344;
+    border-radius: 10px;
+    display: flex;
+}
+
+.star .back .wrap .con .talk .talkbox1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 6px 0 0 10px;
+}
+
+.star .back .wrap .con .talk .talkbox1 .singer{
+    margin: 20px 30px 0 20px;
+}
+
+.star .back .wrap .con .talk .talkbox1:last-child .singer{
+    margin: 20px 50px 0 20px;
+}
+
+
+.star .back .wrap .con .talk .talkbox1 .massage{
+    margin-top: 8px;
+}
+
+
+.star .back .wrap .con .talk .talkbox1:last-child{
+    position: absolute;
+    bottom: 0;
+}
+
+.star .back .wrap .con .talk .talkbox2{
+    width: 495px;
+    height: 62px;
+    position: absolute;
+    top:0;
+    right: 65px;
+    margin: 30px 0 10px 0;
+    border:3px solid #00d344;
+    border-radius: 10px;
+    display: flex;
+}
+
+.star .back .wrap .con .talk .talkbox2:last-child{
+    position: absolute;
+    top: 72px;
+}
+
+.star .back .wrap .con .talk .talkbox2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 6px 0 0 10px;
+}
+
+.star .back .wrap .con .talk .talkbox2:first-child .singer{
+    margin: 20px 52px 0 20px;
+}
+
+.star .back .wrap .con .talk .talkbox2:last-child .singer{
+    margin: 9px 30px 0 20px;
+}
+
+.star .back .wrap .con .talk .talkbox2 .massage{
+    margin-top: 8px;
+}
+
+
+.star .back .wrap .con .logo{
+    position: absolute;
+    left: 389px;
+    top: 200px;
+}
+
+.star .back .wrap .con .logo img{}
+
+/*---------------------------------------------*/
+
+.player{/*뷰 하단에 바 고정하는 법*/ 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.player .wrap{
+    margin: 0 auto;
+    background-color: #333;
+    height: 110px;
+}
+
+.player .wrap .bar{
+    margin: 0 auto;
+    width: 1100px;
+    height: 110px;
+    position: relative;
+}
+
+.player .wrap .bar .jakat img{
+    width: 80px;
+    height: 80px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.player .wrap .bar .title{
+    position: absolute;
+    top:44px;
+    left: 130px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.player .wrap .bar .conbox{
+    height: 40px;
+    width: 280px;
+    position: absolute;
+    top: 20px;
+    left: 410px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player .wrap .bar .conbox img{
+    width: 20px;
+    margin-top: 10px;
+}
+
+.player .wrap .bar .conbox .play img{
+    margin-top: 5px;
+    width: 25px;
+}
+
+
+.player .wrap .bar .conbox .shuffle img{
+    width: 15px;
+}
+
+.player .wrap .bar .conbox .re img{
+    width: 15px;
+}
+
+.player .wrap .bar .conbox .volume img{
+    width: 18px;
+}
+
+.player .wrap .bar .playbar{
+    width: 350px;
+    height: 25px;
+    position: absolute;
+    top: 70px;
+    left: 390px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.player .wrap .bar .playbar .box1{
+    width: 260px;
+    height: 8px;
+    background-color: #555;
+    margin-top: 8.5px;
+}
+
+.player .wrap .bar .list{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top:16px;
+    right: 30px;
+}
+
+.player .wrap .bar .list img{
+    width: 35px;
+    margin: 25px 0 0 17.5px;
+}
+
+/*------------------------------------------*/
+
+footer{/*뷰 하단에 고정하면 footer가 아래로 밀려서 안보이기 때문에 padding으로 위로 올려준다*/
+    padding-bottom: 110px;
+}
+
+footer .back{
+    height: 160px;
+}
+
+footer .back .wrap{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+footer .back .wrap .box1{
+    width: 500px;    
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+    padding-right: 400px;
+    background-image: url(../image_220729/1x/grayline_h35_w900.png);
+    background-repeat: no-repeat;
+}
+
+footer .back .wrap .box1 img{
+    width: 60px;
+}
+
+footer .back .wrap .box2{
+    width: 900px;    
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    font-size: 14px;
+}
+
+footer .back .wrap .box3{
+    width: 900px;    
+    display: flex;
+    font-size: 13.5px;
+}
+
+footer .back .wrap .box3 .buis{
+    margin-left: 16px;
+}
